@@ -1,0 +1,9 @@
+{
+    "apps": [
+        {
+            "name": "QR_Code_Back",
+            "script": "npm",
+            "args" : "start"
+        }
+    ] 
+}

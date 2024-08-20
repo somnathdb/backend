@@ -2,7 +2,6 @@ const billModel = require('../../models/bills/billsModel')
 const jwt = require("jsonwebtoken")
 const mongoose = require('mongoose')
 const keys = require('../../config/keys').keys
-const qrcode = require('qrcode');
 const path = require('path');
 const fs = require('fs');
 const AWS = require('aws-sdk');

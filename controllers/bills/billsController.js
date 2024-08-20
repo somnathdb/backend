@@ -2,11 +2,7 @@ const billModel = require('../../models/bills/billsModel')
 const jwt = require("jsonwebtoken")
 const mongoose = require('mongoose')
 const keys = require('../../config/keys').keys
-const path = require('path');
-const fs = require('fs');
-const AWS = require('aws-sdk');
-const { promisify } = require('util');
-const pdf = require('html-pdf-node');
+
 
 
 

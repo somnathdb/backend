@@ -4,7 +4,6 @@ const billsController = require('../../controllers/bills/billsController')
 const CheckAuth = require('../../auth/check-auth')
 
 
-router.post('/updateBillById', billsController.updateBillById)
 
 router.post('/getReportsBills', billsController.getReportsBills)
 
